@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather app</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body onload="getLocation ();">
+  <div class="content-fluid apptitle">Weather App</div><div class="content-fluid apptitle2">for all cities in the world</div> 
+  <div class="content-fluid temp-data">
+<p id="location"></p>
+  <p id="current"></p>
+  <p id="current_F" style="display:none;"></p>
+  <a id="showc" href="#" onclick="showc()"></a> 
+  <a id="showf" href="#" onclick="showf()"></a>
+  <p id="condition"></p>
+  <img id="img" src=""/>
+    <p id="copyright">by Pierre Macedo</p>
+  </div>
+</body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
